@@ -1,17 +1,45 @@
 h1 {
-    font-family: "Comic Sans MS", cursive, sans-serif; 
+    font-family: "Gill Sans", sans-serif;
+    font-size: 20px; 
+    color:  #262626;
 }
 
 h2 {
-    font-family: "Papyrus", "Comic Sans MS", cursive, sans-serif;
+    font-family: "Gill Sans", sans-serif;
+    font-size: 12px;
+    color:  #333333;
 }
 
 p {
-    font-family: "Comic Sans MS", cursive, sans-serif;
-    font-kerning: none;
+    font-family: "Helvetica Neue", sans-serif;
+    font-size: 10px;
+    color: #000000;
 }
 
-link {
-    font-family: "Comic Sans MS", cursive, sans-serif;
-    font-kerning: none;    
+a:link {
+    font-family: "Helvetica Neue", sans-serif;
+    font-size: 10px;
+    color: #262626;
+    text-decoration: none;
+}
+
+a:visited {
+    font-family: "Helvetica Neue", sans-serif;
+    font-size: 10px;
+    color: #333333;
+    text-decoration: none;
+}
+
+a:hover {
+    font-family: "Helvetica Neue", sans-serif;
+    font-size: 10px;
+    color: #00004d;
+    text-decoration: none;
+}
+
+a:active {
+    font-family: "Helvetica Neue", sans-serif;
+    font-size: 10px;
+    color: #262626;
+    text-decoration: none;
 }
