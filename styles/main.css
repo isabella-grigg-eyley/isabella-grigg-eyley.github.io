@@ -1,45 +1,45 @@
 h1 {
     font-family: "Gill Sans", sans-serif;
-    font-size: 20px; 
+    font-size: 30px; 
     color:  #262626;
 }
 
 h2 {
     font-family: "Gill Sans", sans-serif;
-    font-size: 12px;
+    font-size: 25px;
     color:  #333333;
 }
 
 p {
     font-family: "Helvetica Neue", sans-serif;
-    font-size: 10px;
+    font-size: 15px;
     color: #000000;
 }
 
 a:link {
     font-family: "Helvetica Neue", sans-serif;
-    font-size: 10px;
+    font-size: 15px;
     color: #262626;
     text-decoration: none;
 }
 
 a:visited {
     font-family: "Helvetica Neue", sans-serif;
-    font-size: 10px;
+    font-size: 15px;
     color: #333333;
     text-decoration: none;
 }
 
 a:hover {
     font-family: "Helvetica Neue", sans-serif;
-    font-size: 10px;
+    font-size: 15px;
     color: #00004d;
     text-decoration: none;
 }
 
 a:active {
     font-family: "Helvetica Neue", sans-serif;
-    font-size: 10px;
+    font-size: 15px;
     color: #262626;
     text-decoration: none;
 }
