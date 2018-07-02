@@ -59,6 +59,10 @@ a:active {
     color:  #262626;
 }
 
+.sitelink {
+    padding: 1%;
+}
+
 .title {
     margin: 4%;
 }
