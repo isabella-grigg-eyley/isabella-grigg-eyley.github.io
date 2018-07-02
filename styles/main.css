@@ -1,6 +1,11 @@
+body {
+    margin: 0px;
+    /*max-width: 100%;*/
+}
+
 h1 {
     font-family: "Gill Sans", sans-serif;
-    font-size: 2.5em; 
+    font-size: 2.7em; 
     font-weight: lighter;
     color:  #262626;
 }
@@ -40,3 +45,63 @@ a:active {
     color: #262626;
     text-decoration: none;
 }
+
+.header {
+    background-color: darkgray;
+
+    padding: 15px;
+    padding-left: 4%;
+    max-height: 50px;
+
+    font-family: "Gill Sans", sans-serif;
+    font-size: 2.5em; 
+    font-weight: lighter;
+    color:  #262626;
+}
+
+.title {
+    margin: 4%;
+}
+
+
+/* New Features- CSS section */
+
+.featurelist {
+    display: -webkit-flex;
+    display: flex;
+}
+
+.feature {
+    margin: 2%;
+    max-width: 30%;
+    padding-left: 1%;
+    padding-right: 1%;
+    
+}
+
+.featureimage {
+    max-width: 400px;
+    width: 100%;
+}
+
+.featuredescription {
+    margin: 2%;
+}
+
+.featuretext {
+    margin-left: 2%;
+}
+
+.featurelink {
+    margin: 2%;
+    text-align: center;
+}
+
+/* New Features- CSS section END */
+
+
+
+
+
+    
+    
