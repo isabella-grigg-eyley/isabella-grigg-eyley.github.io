@@ -17,6 +17,27 @@ h2 {
     color:  #333333;
 }
 
+h3 {
+    font-family: "Gill Sans", sans-serif;
+    font-weight: lighter;
+    font-size: 2em;
+    color:  #333333;
+}
+
+h4 {
+    font-family: "Gill Sans", sans-serif;
+    font-weight: lighter;
+    font-size: 1.6em;
+    color:  #333333;
+}
+
+h5 {
+    font-family: "Gill Sans", sans-serif;
+    font-weight: lighter;
+    font-size: 1.2em;
+    color:  #333333;
+}
+
 p {
     font-family: "Helvetica Neue", sans-serif;
     color: #000000;
@@ -63,13 +84,24 @@ a:active {
     padding: 1%;
 }
 
-.title {
-    margin: 4%;
+.content {
+    margin: 3%;
 }
 
-.content {
+.title {
     margin: 4%;
+    margin-bottom: 2%;
 }
+
+.subtitle {
+    margin: 2%;
+    margin-top: 8%;
+    margin-left: 4%;
+    margin-right: 4%;
+    
+
+}
+
 
 
 /* New Features- CSS section */
@@ -105,9 +137,24 @@ a:active {
     text-align: center;
 }
 
+.smallnote {
+    margin: 4%;
+}
+
 /* New Features- CSS section END */
 
+/* Blog Content */
 
+.blog {
+
+}
+
+.exampleimage {
+    width: 90%;
+    max-width: 849px;
+}
+
+/* Blog Content END */
 
 
 
