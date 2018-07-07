@@ -85,21 +85,18 @@ a:active {
 }
 
 .content {
-    margin: 3%;
+    margin: 5%;
+    margin-top: 60px;
 }
 
 .title {
-    margin: 4%;
-    margin-bottom: 2%;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 .subtitle {
-    margin: 2%;
-    margin-top: 8%;
-    margin-left: 4%;
-    margin-right: 4%;
-    
-
+    margin-top: 40px;
+    margin-bottom: 20px;
 }
 
 
@@ -112,10 +109,10 @@ a:active {
 }
 
 .feature {
-    margin: 2%;
+    
     max-width: 30%;
-    padding-left: 1%;
-    padding-right: 1%;
+    padding-left: 2%;
+    padding-right: 2%;
     
 }
 
@@ -138,7 +135,8 @@ a:active {
 }
 
 .smallnote {
-    margin: 4%;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 /* New Features- CSS section END */
@@ -146,7 +144,7 @@ a:active {
 /* Blog Content */
 
 .blog {
-
+    margin-top: 60px;
 }
 
 .exampleimage {
