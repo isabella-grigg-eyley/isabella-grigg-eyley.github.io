@@ -1,7 +1,82 @@
+/*-- Grid Framework --*/
+
+.grid {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.row {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+/*-- Grid Framework END --*/
+
+.left {
+    position: absolute;
+    left: 0px;
+}
+
+.right {
+    position: absolute;
+    right: 0px;
+}
+
 body {
     margin: 0px;
     /*max-width: 100%;*/
 }
+
+/*-- General Font Specifications --*/
 
 h1 {
     font-family: "Gill Sans", sans-serif;
@@ -13,21 +88,21 @@ h1 {
 h2 {
     font-family: "Gill Sans", sans-serif;
     font-weight: lighter;
-    font-size: 2em;
+    font-size: 2.3em;
     color:  #333333;
 }
 
 h3 {
     font-family: "Gill Sans", sans-serif;
     font-weight: lighter;
-    font-size: 2em;
+    font-size: 1.8em;
     color:  #333333;
 }
 
 h4 {
     font-family: "Gill Sans", sans-serif;
     font-weight: lighter;
-    font-size: 1.6em;
+    font-size: 1.5em;
     color:  #333333;
 }
 
@@ -67,17 +142,22 @@ a:active {
     text-decoration: none;
 }
 
+/*-- General Font Specifications END --*/
+
 .header {
     background-color: darkgray;
-
     padding: 15px;
     padding-left: 4%;
-    max-height: 50px;
+    max-height: 60px;
+}
 
-    font-family: "Gill Sans", sans-serif;
+.header h1 {
+    font-family: "Helvetica Neue", sans-serif;
     font-size: 2.5em; 
     font-weight: lighter;
     color:  #262626;
+    margin: 0%;
+    padding: 0%;
 }
 
 .sitelink {
@@ -150,11 +230,12 @@ a:active {
 .exampleimage {
     width: 90%;
     max-width: 849px;
+    margin-top: 8px;
+    margin-bottom: 8px;
 }
 
 /* Blog Content END */
 
 
 
-    
     
