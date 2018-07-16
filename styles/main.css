@@ -154,7 +154,21 @@ margin-right: auto;
 }
 
 /* Wishlist Blog CSS END */
+/* T3 Blog */
 
-/* Blogs Index */
+.wireframes {
+    display: flex;
+    width: 100%;
+}
 
-/* Blogs Index END */
+
+.wireframesimg {
+    max-width: 100%;
+    width: -webkit-fill-available;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 10px;
+    padding-left: 0px;
+    padding-right: 20px;
+    float: left;
+}
