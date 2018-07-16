@@ -1,0 +1,88 @@
+.headerbar {
+    box-sizing: border-box;
+    background-color:grey;
+    opacity: 1;
+    margin-bottom: 15px;
+    height: 90px;
+    position: fixed;
+    width: 100%;
+    overflow: hidden;
+    text-decoration: none;
+}
+
+.headerbar a {
+    color: black;
+    float: left;
+    display: block;
+    
+    text-align: center;
+    text-decoration: none;
+    padding: 2px;
+    padding-left: 10px;
+    padding-right: 12px;
+    padding-bottom: 2px;
+    height: 65px;
+    margin: 10px;
+}
+
+.headerbar a h2 {
+    font-size: 3.5rem;
+}
+
+.headerbar a:hover h1 {
+    color: white;
+}
+
+.headerbar h2 a:hover {
+    border: solid white;
+}
+
+.headerbar-right nav {
+    height: 0;
+}
+
+.headerbar-right {
+    float: right;
+}
+
+.headerbar-right ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 8px;
+}
+.headerbar-right li {
+    float: left;
+}
+
+.headerbar-right li a {
+    display: inline;
+    margin-top: 0;
+    position: relative;
+    top: 10px;
+    height: 47px;
+}
+
+.headerbar-right li a:hover {
+    display: inline;
+    border: solid white;
+}
+
+.lastblog {
+    border: solid black;
+    padding: 2%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    overflow: scroll;
+    max-height: 80rem;
+    
+}
+
+.container {
+    position: relative;
+    top: 150px;
+}
+
+.button {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
