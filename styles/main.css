@@ -92,7 +92,9 @@
     margin-bottom: 20px;
     overflow: scroll;
     max-height: 80rem;
-    
+}
+.date {
+    text-align: right;
 }
 
 .blog {
